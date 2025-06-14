@@ -1,0 +1,17 @@
+[project]
+name = "py-tests"
+version = "0.1.0"
+description = "Test solana-hello-world2"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "borsh-construct",
+    "solana>=0.36.7",
+    "solders>=0.26.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ipython>=9.3.0",
+]
