@@ -5,7 +5,6 @@ description = "Test solana-hello-world2"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "borsh-construct",
     "solana>=0.36.7",
     "solders>=0.26.0",
 ]
